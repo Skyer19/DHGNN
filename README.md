@@ -3,11 +3,17 @@ WenLong Zhu, YuZhong Chen, RaoYu Meng.A Rumor Detection Model Based on Dynamic H
 
 # Dependencies:
 Pytorch==1.4.0
+
 torch==1.4.0
+
 torch-cluster==1.5.4
+
 torch-geometric==1.6.3
+
 torch-scatter==2.0.3
+
 torch-sparse==0.5.1
+
 torchvision==0.5.0
 
 
