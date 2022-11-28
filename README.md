@@ -2,13 +2,14 @@
 WenLong Zhu, YuZhong Chen, RaoYu Meng.A Rumor Detection Model Based on Dynamic Heterogeneous Graph, Journal of Chinese Computer Systems 2022.
 
 # Dependencies:
-Gensim==3.7.2
-
-Jieba==0.39
-
-Scikit-learn==0.21.2
-
 Pytorch==1.4.0
+torch==1.4.0
+torch-cluster==1.5.4
+torch-geometric==1.6.3
+torch-scatter==2.0.3
+torch-sparse==0.5.1
+torchvision==0.5.0
+
 
 # Datasets
 The main directory contains the directories of Weibo dataset and two Twitter datasets: twitter15 and twitter16. In each directory, there are:
