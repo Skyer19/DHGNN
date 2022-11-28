@@ -88,7 +88,7 @@ class DHGNN(NeuralNetwork):
         #Dynamic_attention
         self.rnn = RNN(self.n_hid, self.n_hid, self.n_out, self.num_layers, self.rnn_name)
         #Attention
-        self.mh_attention = MultiheadAttention(input_size=300, output_size=300, num_heads=2, is_layer_norm=False, attn_dropout=0.0)
+        self.mh_attention = MultiheadAttention(input_size=300, output_size=300, num_heads=8, is_layer_norm=False, attn_dropout=0.0)
         self.temporal_mh_attention = TemporalSelfAttention(input_size=300, output_size=300, num_heads=8, is_layer_norm=False, attn_dropout=0.0)
         self.dropout = nn.Dropout(dropout_rate)
         self.relu = nn.ReLU()
