@@ -1,5 +1,5 @@
 # Paper of the source codes released:
-WenLong Zhu, YuZhong Chen, RaoYu Meng.A Rumor Detection Model Based on Dynamic Heterogeneous Graph, Journal of Chinese Computer Systems 2022.
+WenLong Zhu, YuZhong Chen, MengYu Rao.A Rumor Detection Model Based on Dynamic Heterogeneous Graph, Journal of Chinese Computer Systems 2022.
 
 # Dependencies:
 Pytorch==1.4.0
